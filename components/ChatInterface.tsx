@@ -2,10 +2,6 @@ import { useState, useRef, useEffect } from 'react';
 import { MBTIType, Message } from '../types/mbti';
 import { generateMBTIResponse, analyzeMBTICompatibility } from '../utils/openai';
 
-interface ChatInterfaceProps {
-  mbtiType?: MBTIType; // Optional now as we'll show all responses
-}
-
 const allMBTITypes: MBTIType[] = [
   'ISTJ', 'ISFJ', 'INFJ', 'INTJ',
   'ISTP', 'ISFP', 'INFP', 'INTP',

@@ -1,4 +1,4 @@
-import { MBTIType, MBTIPersonality } from '../types/mbti';
+import { MBTIPersonality } from '../types/mbti';
 
 const mbtiData: MBTIPersonality[] = [
   {
